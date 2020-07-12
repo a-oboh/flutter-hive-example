@@ -1,0 +1,46 @@
+---
+name: hive_reminder_app
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^4.3.1
+  auto_route: ^0.6.1
+  cupertino_icons: ^0.1.3
+  hive: ^1.4.1+1
+  hive_flutter: ^0.3.0+2
+  path_provider: ^1.6.5
+  flutter_screenutil: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.8.0
+  auto_route_generator: ^0.6.0
+  hive_generator: ^0.5.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+  - family: Lato
+    fonts:
+    - asset: fonts/Lato-Regular.ttf
+    - asset: fonts/Lato-Italic.ttf
+      style: italic
+    - asset: fonts/Lato-Bold.ttf
+      weight: 700
+  - family: WorkSans
+    fonts:
+    - asset: fonts/WorkSans-Regular.ttf
+    - asset: fonts/WorkSans-Italic.ttf
+      style: italic
+    - asset: fonts/WorkSans-Bold.ttf
+      weight: 700
+    - asset: fonts/WorkSans-Medium.ttf
+      weight: 500
+    - asset: fonts/WorkSans-SemiBold.ttf
+      weight: 600
