@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="209e849a-41cc-492b-bb85-4897d760684a" name="Default Changelist" comment="initial commit" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1eaWNtAbnCjaNoIdli57E3u89Yw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="209e849a-41cc-492b-bb85-4897d760684a" name="Default Changelist" comment="" />
+      <created>1594560146163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594560146163</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1594587077105</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594587077105</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1731" y="237" key="#Plugins" timestamp="1594560218280">
+      <screen x="1440" y="23" width="1920" height="1177" />
+    </state>
+    <state x="1731" y="237" key="#Plugins/0.23.1440.877/1440.23.1920.1177@1440.23.1920.1177" timestamp="1594560218280" />
+    <state width="1312" height="212" key="GridCell.Tab.0.bottom" timestamp="1594587096705">
+      <screen x="1440" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1312" height="212" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1177@1440.23.1920.1177" timestamp="1594587096705" />
+    <state width="1312" height="212" key="GridCell.Tab.0.center" timestamp="1594587096704">
+      <screen x="1440" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1312" height="212" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1177@1440.23.1920.1177" timestamp="1594587096704" />
+    <state width="1312" height="212" key="GridCell.Tab.0.left" timestamp="1594587096703">
+      <screen x="1440" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1312" height="212" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1177@1440.23.1920.1177" timestamp="1594587096703" />
+    <state width="1312" height="212" key="GridCell.Tab.0.right" timestamp="1594587096704">
+      <screen x="1440" y="23" width="1920" height="1177" />
+    </state>
+    <state width="1312" height="212" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1177@1440.23.1920.1177" timestamp="1594587096704" />
+    <state x="1708" y="211" key="SettingsEditor" timestamp="1594564808067">
+      <screen x="1440" y="23" width="1920" height="1177" />
+    </state>
+    <state x="1708" y="211" key="SettingsEditor/0.23.1440.877/1440.23.1920.1177@1440.23.1920.1177" timestamp="1594564808067" />
+    <state x="1991" y="467" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1594586908637">
+      <screen x="1440" y="23" width="1920" height="1177" />
+    </state>
+    <state x="1991" y="467" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.877/1440.23.1920.1177@1440.23.1920.1177" timestamp="1594586908637" />
+    <state x="1834" y="282" width="670" height="676" key="search.everywhere.popup" timestamp="1594587017895">
+      <screen x="1440" y="23" width="1920" height="1177" />
+    </state>
+    <state x="1834" y="282" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/1440.23.1920.1177@1440.23.1920.1177" timestamp="1594587017895" />
+  </component>
+</project>
