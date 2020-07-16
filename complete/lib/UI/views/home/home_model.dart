@@ -9,7 +9,7 @@ class HomeModel with ChangeNotifier {
 
   List get inventoryList => _inventoryList;
 
-  addInventory(Inventory inventory) async {
+  addItem(Inventory inventory) async {
     var box = await Hive.openBox<Inventory>(_inventoryBox);
 
     box.add(inventory);
@@ -19,7 +19,7 @@ class HomeModel with ChangeNotifier {
     notifyListeners();
   }
 
-  getInventory() async {
+  getItem() async {
     final box = await Hive.openBox<Inventory>(_inventoryBox);
 
     _inventoryList = box.values.toList();
@@ -27,7 +27,7 @@ class HomeModel with ChangeNotifier {
     notifyListeners();
   }
 
-  updateAt(int index, Inventory inventory) {
+  updateItem(int index, Inventory inventory) {
     final box = Hive.box<Inventory>(_inventoryBox);
 
     box.putAt(index, inventory);
@@ -35,12 +35,12 @@ class HomeModel with ChangeNotifier {
     notifyListeners();
   }
 
-  deleteAt(int index) {
+  deleteItem(int index) {
     final box = Hive.box<Inventory>(_inventoryBox);
 
     box.deleteAt(index);
 
-    getInventory();
+    getItem();
 
     notifyListeners();
   }

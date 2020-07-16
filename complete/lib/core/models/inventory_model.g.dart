@@ -14,6 +14,7 @@ class InventoryAdapter extends TypeAdapter<Inventory> {
       for (var i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
     };
     return Inventory(
+      date: fields[2] as DateTime,
       name: fields[0] as String,
       description: fields[1] as String,
     );
@@ -22,14 +23,15 @@ class InventoryAdapter extends TypeAdapter<Inventory> {
   @override
   void write(BinaryWriter writer, Inventory obj) {
     writer
-      ..writeByte(2)
+      ..writeByte(3)
       ..writeByte(0)
       ..write(obj.name)
       ..writeByte(1)
-      ..write(obj.description);
+      ..write(obj.description)
+      ..writeByte(2)
+      ..write(obj.date);
   }
 
   @override
-  // TODO: implement typeId
   int get typeId => 0;
 }

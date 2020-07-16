@@ -15,7 +15,7 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     SizeConfig().init(context);
-    context.watch<HomeModel>().getInventory();
+    context.watch<HomeModel>().getItem();
 
     return Consumer<HomeModel>(
       builder: (context, model, child) {
@@ -39,7 +39,6 @@ class HomeView extends StatelessWidget {
                     itemCount: model.inventoryList.length,
                     itemBuilder: (context, index) {
                       Inventory inv = model.inventoryList[index];
-
                       return Container(
                         margin: EdgeInsets.symmetric(
                           vertical: 2.height,
@@ -108,7 +107,7 @@ class HomeView extends StatelessWidget {
                                       inputItemDialog(context, 'update', index);
                                       break;
                                     case 'delete':
-                                      model.deleteAt(index);
+                                      model.deleteItem(index);
                                   }
                                 },
                                 itemBuilder: (context) {
@@ -212,12 +211,12 @@ class HomeView extends StatelessWidget {
                       onPressed: () async {
                         if (_formKey.currentState.validate()) {
                           if (action == 'add') {
-                            await inventoryDb.addInventory(Inventory(
+                            await inventoryDb.addItem(Inventory(
                               name: nameController.text,
                               description: descriptionController.text,
                             ));
                           } else {
-                            await inventoryDb.updateAt(
+                            await inventoryDb.updateItem(
                                 index,
                                 Inventory(
                                   name: nameController.text,
@@ -228,7 +227,7 @@ class HomeView extends StatelessWidget {
                           nameController.clear();
                           descriptionController.clear();
 
-                          inventoryDb.getInventory();
+                          inventoryDb.getItem();
 
                           Navigator.pop(context);
                         }
